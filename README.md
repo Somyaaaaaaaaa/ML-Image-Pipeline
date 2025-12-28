@@ -14,3 +14,6 @@ pip install -r requirements.txt
 
 ## Running
 Placeholder. Will be updated as the pipeline is implemented.
+
+python src/main.py
+
