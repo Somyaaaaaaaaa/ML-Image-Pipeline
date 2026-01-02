@@ -37,8 +37,8 @@ image-ml-pipeline/
   - evaluate.py # Model evaluation and accuracy computation
 - data/
   - images/ # Image dataset (folder-per-class)
-- results/ # Saved outputs (future use)
-- configs/ # Configuration files (future use)
+- results/ # Saved outputs 
+- configs/ # Defaul configuration files 
 - requirements.txt
 - README.md
 
@@ -59,6 +59,16 @@ pip install -r requirements.txt
 From the project root:
 
 python src/main.py
+
+----
+
+## Results
+
+Evaluation metrics are saved to:
+
+results/metrics.json
+
+This allows experiment outputs to be inspected or compared across runs.
 
 ----
 
